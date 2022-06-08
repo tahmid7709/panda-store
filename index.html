@@ -5,9 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
     
+</head>
+<body> 
+    <!--navbar-->
+   <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpacks">Backpacks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </div>
+    <!--carousel-->
+    <div class="container">
+
+        <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                  <div class="col-md-7">
+                    <h1>MI 48" Super LED TV</h1>
+                    <p>It supports Dolby Vision that delivers brighter brights and darker darks by enhancing the sharpness, contrast, and color of images, while true-to-life levels of detail let you see more than ever before. It has two 10W stereo speakers that deliver a rich, clear, and layered cinematic audio experience from the comfort of your living room.</p>
+                    <h1 class="price">$1200</h1>
+                    <button class="buy-now-btn">🛒Buy Now</button>
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                  <div class="col-md-7">
+                    <h1>Havit H2233d Gaming Headphone</h1>
+                    <p>The Havit H2233d has High-precision smooth scroll wheel volume control and a microphone one-touch mute button. It is also designed with All-inclusive skin earmuffs, passive noise reduction, and high sensitivity omnidirectional microphone. The Latest Havit H2233d Gaming Headphone offers 01-year warranty.</p>
+                    <h1 class="price">$400</h1>
+                    <button class="buy-now-btn">🛒Buy Now</button>  
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                  <div class="col-md-7">
+                    <h1>Microsoft Xbox One X Gaming Console</h1>
+                    <p>Microsoft Xbox One X Gaming Console comes with 8-core Jaguar Evolved CPU at 2.3GHz, 12GB GDDR5 RAM, 1TB Storage with 40 CUs (1,172Mhz) 6 TF GPU. This stylish Xbox One X features with 4K UHD Blu Ray Optical drive with 40% more power than any other console, experience immersive true 4K gaming.</p>
+                    <h1 class="price">$600</h1>
+                    <button class="buy-now-btn">🛒Buy Now</button> 
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+    <!--catagories section-->
+    <div class="container catagories">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="cat1 d-flex justify-content-around align-items-center">
+        <h1>Watch</h1>
+        <img src="images/categories/watch.png" alt="">
+        </div>
+        </div>
+        <div class="col-md-4">
+            <div class="cat2 d-flex justify-content-around align-items-center">
+            <h1>Bagpack</h1>
+            <img src="images/categories/bag.png" alt="">
+        </div> 
+        </div>
+        <div class="col-md-4">
+            <div class="cat3 d-flex justify-content-around align-items-center">
+            <h1>Shoes</h1>
+            <img src="images/categories/shoes.png" alt="">
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

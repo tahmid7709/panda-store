@@ -1,0 +1,44 @@
+body{
+    font-family: 'Old Standard TT', serif;;
+}
+.container{
+    margin-bottom: 100px;
+}
+    .container h1{
+        font-family: 'Righteous', cursive;;
+    }
+
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 8px;
+}
+.carousel-item{
+    padding: 40px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-btn{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-image: linear-gradient(to bottom,#ff589b 0% ,#ff136f 100%);
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: #8CD0E4;
+}
+.cat2{
+    background-color: #EBECA2;
+}
+.cat3{
+    background-color: #EF9AAB;
+}
+.catagories h1{
+    color: white;
+}
