@@ -1,16 +1,17 @@
 body{
-    font-family: 'Old Standard TT', serif;;
+    font-family: 'Barlow', sans-serif;
 }
 .container{
     margin-bottom: 100px;
 }
     .container h1{
-        font-family: 'Righteous', cursive;;
+        font-family: 'Righteous', cursive;
     }
 
 .orange-bg{
     background-color: #fceae8;
     border-radius: 8px;
+    box-shadow: 5px 5px 15px lightgray;
 }
 .carousel-item{
     padding: 40px 40px;
@@ -41,4 +42,15 @@ body{
 }
 .catagories h1{
     color: white;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#contacts{
+    height: 300px;
+}
+footer{
+    text-align: center;
 }
